@@ -1,0 +1,31 @@
+/* property = modifiyer*/
+h2 {
+    color: rgb(0, 255, 76);
+    background-color: rgb(0, 0, 0);
+    /*px = Pixels*/
+    font-size: 30px;
+    font-family: Arial;
+    /*bold = 700 , normal = 400 (can use numbers too)*/
+    font-weight: bold;
+    /* thickness / type / colour */
+    /* border-right:;    can be used for specific borders */
+    border: 5px solid red;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 4px rgb(145, 255, 145);
+    box-shadow: 5px 5px 7px rgb(160, 160, 160);
+    transform: rotate(180deg) skew(10deg,10deg);
+}
+/*always put dot before class name*/
+.test_class {
+    color: blue;
+    background-color: black;
+    font-family: Arial;
+    /*width height will not have effect if not block*/
+    display: inline;
+}
+/*only use id on one element and use #*/
+#my_id{
+    color: gold;
+    display: block;
+}
